@@ -16,4 +16,4 @@ def profile(userid):
     return f"{userid}\' profile"
 
 if __name__ == "__main__":
-    app.run()
+    app.run(debug = True)
